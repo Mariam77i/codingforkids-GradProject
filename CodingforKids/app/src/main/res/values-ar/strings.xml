@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coding for Kids</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="register">تسجيل جديد</string>
+    <string name="forget_pass">نسيت كلمة المرور</string>
+    <string name="email">الايميل أو اسم المستخدم</string>
+    <string name="pass">كلمة المرور</string>
+    <string name="create_account">إنشاء حساب جديد</string>
+    <array name="user_type">
+        <item>نوع المستخدم</item>
+        <item>والد أو والدة</item>
+        <item>معلم</item>
+    </array>
+    <array name="level">
+        <item>اختر مستوى الدرس</item>
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Level 5</item>
+        <item>Level 6</item>
+    </array>
+    <array name="answer">
+        <item>اختر الاجابة الصحيحة</item>
+        <item>option1</item>
+        <item>option2</item>
+        <item>option3</item>
+    </array>
+    <array name="lng">
+        <item>اختر لغة البرمجة</item>
+        <item>HTML</item>
+        <item>Java</item>
+        <item>Other</item>
+    </array>
+    <array name="gender">
+        <item>ذكر</item>
+        <item>انثى</item>
+    </array>
+    <array name="education">
+        <item>صف أول</item>
+        <item>صف ثاني</item>
+        <item>صف ثالث</item>
+        <item>صف رابع</item>
+        <item>صف خامس</item>
+        <item>صف سادس</item>
+        <item>صف سابع</item>
+        <item>صف ثامن</item>
+        <item>صف تاسع</item>
+        <item>صف عاشر</item>
+        <item>صف حادي عشر</item>
+        <item>صف ثاني عشر</item>
+    </array>
+    <string name="name">"الاسم "</string>
+    <string name="email2">البريد الالكتروني</string>
+    <string name="user_type">نوع المستخدم</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="edit_profile">تعديل البروفايل</string>
+    <string name="save">حفظ</string>
+    <string name="submit">إرسال</string>
+    <string name="reset_password">تغيير كلمة المرور</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="admin">مدير النظام</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="view_parents">عرض الآباء</string>
+    <string name="manage_parents">إدارة الأباء</string>
+    <string name="manage_teachers">إدارة المعلمين</string>
+    <string name="manage_lessons">إدارة الدروس</string>
+    <string name="manage_exercises">إدارة التمارين</string>
+    <string name="manage_requests">إدارة الطلبات</string>
+    <string name="view_kids">عرض الأطفال</string>
+    <string name="add_lesson">إضافة درس</string>
+    <string name="add_exercise">إضافة تمرين</string>
+    <string name="title">العنوان</string>
+    <string name="description">الوصف</string>
+    <string name="level">المستوى</string>
+    <string name="lng">لغة البرمجة</string>
+    <string name="image">الصورة</string>
+    <string name="sound">الصوت</string>
+    <string name="video">الفيديو</string>
+    <string name="topic">موضوع الدرس</string>
+    <string name="update_lesson">تعديل الدرس</string>
+    <string name="question">السؤال</string>
+    <string name="correct">الاجابة الصحيحة</string>
+    <string name="img1">صورة الإجابة 1</string>
+    <string name="img2">صورة الإجابة 2</string>
+    <string name="img3">صورة الإجابة 3</string>
+    <string name="update_exercise">تعديل التدريب</string>
+    <string name="parent">الأباء</string>
+    <string name="teacher">المعلم</string>
+    <string name="add_child">إضافة طفل</string>
+    <string name="manage_child">إدارة الأبناء</string>
+    <string name="view_progress">عرض تقدم الطفل</string>
+    <string name="view_lessons">عرض الدروس</string>
+    <string name="age">همر الطفل</string>
+    <string name="update_child">تعديل الطفل</string>
+    <string name="view_child_progress">عرض تقدم الطفل</string>
+    <string name="score">نقاط الطفل</string>
+    <string name="lessons">الدروس المنتهية</string>
+    <string name="done">تم</string>
+    <string name="view_tutorials">عرض الدروس</string>
+    <string name="add_request">طلب إضافة درس</string>
+    <string name="update_request">طلب تعديل درس</string>
+    <string name="programming_language">لغة البرمجة</string>
+    <string name="child">الطفل</string>
+    <string name="start_learning">ابدأ بالتعلم</string>
+    <string name="play_games">العب معنا</string>
+    <string name="choose_language">اختر اللغة</string>
+    <string name="learn_html">تعلم HTML</string>
+    <string name="learn_java">تعلم الجافا</string>
+    <string name="solve_exercise">حل التمرين</string>
+    <string name="exercise_details">تفاصيل التمرين</string>
+    <string name="create_code_game">لعبة إنشاء الكود</string>
+    <string name="game_details">تفاصيل اللعبة</string>
+    <string name="concepts_game">لعبة مفاهيم البرمجة</string>
+    <string name="email_error">يجب عليك كتابة البريد الإلكتروني أو اسم المستخدم</string>
+    <string name="pass_wrong">يجب كتابة كلمة المرور</string>
+    <string name="email_not_valid">البريد الالكتروني غير صحيح</string>
+    <string name="name_required">الاسم مطلوب</string>
+    <string name="email_required">البريد الالكتروني مطلوب</string>
+    <string name="user_required">اسم المستخدم مطلوب</string>
+    <string name="password_length">طول كلمة المرور بين 6 إلى 20</string>
+    <string name="pass_not_valid">يجب أن تحتوي كلمة المرور على أحرف كبيرة وصغيرة وأرقام</string>
+    <string name="confirm_pass">تأكيد كلمة المرور مطلوب</string>
+    <string name="pass_mismatch">عدم تطابق كلمة المرور</string>
+    <string name="confirm_logout">هل تريد بالتأكيد الخروج؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="age_not_valid">العمر يجب أن يكون أرقام</string>
+    <string name="age_error">عمرالطفل مطلوب</string>
+    <string name="child_data">بيانات الطفل</string>
+    <string name="gender">النوع</string>
+    <string name="edu">مستوى التعليم</string>
+    <string name="delete">حذف</string>
+    <string name="confirm_delete">هل أنت متأكد أنك تريد حذف السجل؟</string>
+    <string name="cancel">إلغاء الأمر</string>
+    <string name="add_image">صورة الدرس</string>
+    <string name="upload">تحميل</string>
+    <string name="add_sound">صوت الدرس</string>
+    <string name="add_video">فيديو الدرس</string>
+    <string name="title_required">عنوان الدرس مطلوب</string>
+    <string name="desc_required">تفاصيل الدرس مطلوبة</string>
+    <string name="topic_required">"موضوع الدرس مطلوب "</string>
+    <string name="lang_required">لغة البرمجة مطلوبة</string>
+    <string name="level_required">مستوى الدرس مطلوب</string>
+    <string name="next">التالي</string>
+    <string name="skip">تخطي</string>
+    <string name="choose_video">من فضلك اختر ملف فيديو</string>
+    <string name="choose_sound">من فضلك اختر ملف صوت</string>
+    <string name="choose_image">من فضلك اختر ملف صورة</string>
+    <string name="exercise_image">صورة التمرين</string>
+    <string name="upload_option1">تحميل الخيار الأول</string>
+    <string name="upload_option2">تحميل الخيار الثاني</string>
+    <string name="upload_option3">تحميل الخيار الثالث</string>
+    <string name="question_required">السؤال مطلوب</string>
+    <string name="correct_required">الاجابة الصحيحة مطلوبة</string>
+    <string name="lesson_details">تفاصيل الدرس</string>
+    <string name="wrong_age">"يجب أن يكون عمر الطفل من ٧ إلى ١٢ "</string>
+    <string name="return_lesson">العودة للدرس</string>
+    <string name="confirm_return">العودة للدرس مرة أخرى</string>
+    <string name="change_request">تغيير حالة الطلب</string>
+    <string name="view_request">عرض تفاصيل الطلب</string>
+    <string name="languge">اللغة</string>
+    <string name="request_type">نوع الطلب</string>
+    <string name="reject">رفض</string>
+    <string name="accept">قبول</string>
+    <string name="choose_game">اختر اللعبة</string>
+    <string name="code_game">لعبة ترتيب الكود</string>
+    <string name="html_game">ألعاب HTML</string>
+    <string name="java_game">ألعاب جافا</string>
+    <string name="display_score">عرض النتيجة</string>
+    <string name="save_score">هل تريد حفظ النتيجة؟</string>
+    <string name="game_level">اختر مستوى اللعبة</string>
+    <string name="level1">المستوى الأول</string>
+    <string name="level2">المستوى الثاني</string>
+    <string name="level3">المستوى الثالث</string>
+</resources>

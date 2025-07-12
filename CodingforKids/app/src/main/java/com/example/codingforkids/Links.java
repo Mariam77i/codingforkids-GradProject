@@ -1,0 +1,43 @@
+package com.example.codingforkids;
+
+public class Links {
+    public static String url_login_link = "https://allergy.serv00.net/kidscoding/login.php";
+    public static String url_signup_link = "https://allergy.serv00.net/kidscoding/signup.php";
+    public static String url_reset_pass1_link = "https://allergy.serv00.net/kidscoding/reset_pass1.php";
+    public static String url_reset_pass2_link = "https://allergy.serv00.net/kidscoding/reset_pass2.php";
+    public static String url_edit_admin_link = "https://allergy.serv00.net/kidscoding/edit_admin.php";
+    public static String url_edit_parent_link = "https://allergy.serv00.net/kidscoding/edit_parent.php";
+    public static String url_edit_teacher_link = "https://allergy.serv00.net/kidscoding/edit_teacher.php";
+    public static String url_edit_child_link = "https://allergy.serv00.net/kidscoding/edit_child.php";
+    public static String url_view_parent_link = "https://allergy.serv00.net/kidscoding/get_parents.php";
+    public static String url_view_parent_kids_link = "https://allergy.serv00.net/kidscoding/get_parent_kids.php";
+    public static String url_delete_parent_link = "https://allergy.serv00.net/kidscoding/delete_parent.php";
+    public static String url_delete_teacher_link = "https://allergy.serv00.net/kidscoding/delete_teacher.php";
+    public static String url_view_teacher_link = "https://allergy.serv00.net/kidscoding/get_teachers.php";
+    public static String url_delete_lesson_link = "https://allergy.serv00.net/kidscoding/delete_lesson.php";
+    public static String url_add_lesson_link = "https://allergy.serv00.net/kidscoding/add_lesson.php";
+    public static String url_add_lesson_image_link = "https://allergy.serv00.net/kidscoding/add_lesson_image.php";
+    public static String url_add_lesson_sound_link = "https://allergy.serv00.net/kidscoding/add_lesson_sound.php";
+    public static String url_add_lesson_video_link = "https://allergy.serv00.net/kidscoding/add_lesson_video.php";
+    public static String url_view_lessons_link = "https://allergy.serv00.net/kidscoding/get_lessons.php";
+    public static String url_update_lesson_link = "https://allergy.serv00.net/kidscoding/update_lesson.php";
+    public static String url_add_exercise_link = "https://allergy.serv00.net/kidscoding/add_exercise.php";
+    public static String url_view_exercises_link = "https://allergy.serv00.net/kidscoding/get_exercises.php";
+    public static String url_delete_exercise_link = "https://allergy.serv00.net/kidscoding/delete_exercise.php";
+    public static String url_update_exercise_link = "https://allergy.serv00.net/kidscoding/update_exercise.php";
+    public static String url_add_child_link = "https://allergy.serv00.net/kidscoding/add_child.php";
+    public static String url_delete_child_link = "https://allergy.serv00.net/kidscoding/delete_child.php";
+    public static String url_view_child_link = "https://allergy.serv00.net/kidscoding/get_childs.php";
+    public static String url_update_child_link = "https://allergy.serv00.net/kidscoding/update_child.php";
+    public static String url_progress_child_link = "https://allergy.serv00.net/kidscoding/progress_child.php";
+    public static String url_add_lesson_request_link = "https://allergy.serv00.net/kidscoding/add_lesson_request.php";
+    public static String url_update_lesson_request_link = "https://allergy.serv00.net/kidscoding/update_lesson_request.php";
+    public static String url_get_child_lesson_link = "https://allergy.serv00.net/kidscoding/get_child_lesson.php";
+    public static String url_get_child_exercise_link = "https://allergy.serv00.net/kidscoding/get_child_exercise.php";
+    public static String url_save_child_exercise_link = "https://allergy.serv00.net/kidscoding/save_child_exercise.php";
+    public static String url_delete_request_link = "https://allergy.serv00.net/kidscoding/reject_request.php";
+    public static String url_view_requests_link = "https://allergy.serv00.net/kidscoding/view_requests.php";
+    public static String url_accept_request_link = "https://allergy.serv00.net/kidscoding/accept_request.php";
+    public static String url_GET_Exercise_link = "https://allergy.serv00.net/kidscoding/get_lesson_exercise.php";
+    public static String url_save_score_link = "https://allergy.serv00.net/kidscoding/save_score.php";
+}

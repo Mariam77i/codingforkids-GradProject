@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".child.GameActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imgLogo">
+
+        <TextView
+            android:id="@+id/txtLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/chelmsfordfree"
+            android:text="@string/choose_game"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:textSize="35dp" />
+        <ImageView
+            android:id="@+id/gifImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginHorizontal="20dp"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGameConcepts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/concepts_game"
+                android:fontFamily="@font/mechanical"
+                android:textColor="@color/white"
+                android:paddingVertical="15dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:drawableTop="@drawable/learning"
+                android:background="@drawable/round_button"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGameBlocks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/code_game"
+                android:fontFamily="@font/mechanical"
+                android:textColor="@color/white"
+                android:paddingVertical="15dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:drawableTop="@drawable/games"
+                android:background="@drawable/round_button"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

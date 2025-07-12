@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">CodingforKids</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forget_pass">Forget Password</string>
+    <string name="email">Email or Username</string>
+    <string name="pass">Password</string>
+    <string name="create_account">Create New Account</string>
+    <array name="user_type">
+        <item>Choose User Type</item>
+        <item>Parent</item>
+        <item>Teacher</item>
+    </array>
+    <array name="level">
+        <item>Choose Lesson Level</item>
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Level 5</item>
+        <item>Level 6</item>
+    </array>
+    <array name="lng">
+        <item>Choose Programming Language</item>
+        <item>HTML</item>
+        <item>Java</item>
+        <item>Other</item>
+    </array>
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+    <array name="education">
+        <item>First grade</item>
+        <item>Second grade</item>
+        <item>Third grade</item>
+        <item>Fourth grade</item>
+        <item>Fifth grade</item>
+        <item>Sixth grade</item>
+        <item>Seventh grade</item>
+        <item>Eighth grade</item>
+        <item>Ninth grade</item>
+        <item>Tenth grade</item>
+        <item>Eleventh grade</item>
+        <item>Twelfth grade</item>
+    </array>
+    <array name="answer">
+        <item>Choose Correct Answer</item>
+        <item>option1</item>
+        <item>option2</item>
+        <item>option3</item>
+    </array>
+    <string name="name">Name</string>
+    <string name="email2">Email</string>
+    <string name="user_type">User Type</string>
+    <string name="username">User Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="submit">Submit</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="admin">Administrator</string>
+    <string name="logout">Logout</string>
+    <string name="view_parents">View Parents</string>
+    <string name="manage_parents">Manage Parents</string>
+    <string name="manage_teachers">Manage Teachers</string>
+    <string name="manage_lessons">Manage Lessons</string>
+    <string name="manage_exercises">Manage Exercises</string>
+    <string name="manage_requests">Manage Requests</string>
+    <string name="view_kids">View Kids</string>
+    <string name="add_lesson">Add Lesson</string>
+    <string name="add_exercise">Add Exercise</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="level">Level</string>
+    <string name="lng">Language</string>
+    <string name="image">Image</string>
+    <string name="sound">Sound</string>
+    <string name="video">Video</string>
+    <string name="topic">Lesson Topic</string>
+    <string name="update_lesson">Update Lesson</string>
+    <string name="question">Question</string>
+    <string name="correct">Correct Answer</string>
+    <string name="img1">Answer Image1</string>
+    <string name="img2">Answer Image2</string>
+    <string name="img3">Answer Image3</string>
+    <string name="update_exercise">Update Exercise</string>
+    <string name="parent">Parent</string>
+    <string name="teacher">Teacher</string>
+    <string name="add_child">Add Child</string>
+    <string name="manage_child">Manage Children</string>
+    <string name="view_progress">View Progress</string>
+    <string name="view_lessons">View Lessons</string>
+    <string name="age">Age</string>
+    <string name="update_child">Update Child</string>
+    <string name="view_child_progress">View Child Progress</string>
+    <string name="score">Child Score</string>
+    <string name="lessons">Lessons Studied</string>
+    <string name="done">Done</string>
+    <string name="view_tutorials">View Tutorials</string>
+    <string name="add_request">Add Lesson Request</string>
+    <string name="update_request">Update Lesson Request</string>
+    <string name="programming_language">Programming Language</string>
+    <string name="child">Child</string>
+    <string name="start_learning">Start Learning</string>
+    <string name="play_games">Play Games</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="learn_html">Learn HTML</string>
+    <string name="learn_java">Learn Java</string>
+    <string name="solve_exercise">Solve Exercise</string>
+    <string name="exercise_details">Exercise Details</string>
+    <string name="create_code_game">Create Code Game</string>
+    <string name="game_details">Game Details</string>
+    <string name="concepts_game">Concepts Game</string>
+    <string name="email_error">You should type Email or Username</string>
+    <string name="pass_wrong">You should type your Password</string>
+    <string name="email_not_valid">Email is not valid</string>
+    <string name="name_required">Name is required</string>
+    <string name="email_required">Email is required</string>
+    <string name="user_required">Username is required</string>
+    <string name="password_length">Password length between 6 to 20</string>
+    <string name="pass_not_valid">Password should contain lower and upper characters and numbers</string>
+    <string name="confirm_pass">Confirm Password is required</string>
+    <string name="pass_mismatch">Password Mismatch</string>
+    <string name="confirm_logout">Are you sure to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="age_not_valid">Age should be a number</string>
+    <string name="age_error">Age is required</string>
+    <string name="child_data">Child Details</string>
+    <string name="gender">Gender</string>
+    <string name="edu">Education</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete">Are you sure you want to delete record?</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_image">Lesson Image</string>
+    <string name="upload">Upload</string>
+    <string name="add_sound">Lesson Sound</string>
+    <string name="add_video">Lesson Video</string>
+    <string name="title_required">Lesson Title is required</string>
+    <string name="desc_required">Lesson Description Required</string>
+    <string name="topic_required">Lesson Topic Required</string>
+    <string name="lang_required">Programming Language is required</string>
+    <string name="level_required">Lesson Level is required</string>
+    <string name="next">Next</string>
+    <string name="skip">SKIP</string>
+    <string name="choose_video">Please Choose Video File</string>
+    <string name="choose_sound">Please choose Sound File</string>
+    <string name="choose_image">Please choose Image File</string>
+    <string name="exercise_image">Exercise Image</string>
+    <string name="upload_option1">Upload Option 1</string>
+    <string name="upload_option2">Upload Option 2</string>
+    <string name="upload_option3">Upload Option 3</string>
+    <string name="question_required">Question is required</string>
+    <string name="correct_required">Correct Answer is required</string>
+    <string name="lesson_details">Lesson Details</string>
+    <string name="wrong_age">The child must be between 7 and 12 years old</string>
+    <string name="return_lesson">Return to Lesson</string>
+    <string name="confirm_return">Return to Learn Lesson Again</string>
+    <string name="change_request">Change Request Status</string>
+    <string name="view_request">View Request Details</string>
+    <string name="languge">Language</string>
+    <string name="request_type">Type</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="choose_game">Choose Game</string>
+    <string name="code_game">Code Blocks Game</string>
+    <string name="html_game">HTML Game</string>
+    <string name="java_game">Java Game</string>
+    <string name="display_score">Display Score</string>
+    <string name="save_score">Do you want to Save Score?</string>
+    <string name="game_level">Choose Game Level</string>
+    <string name="level1">Level 1</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+</resources>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="Coding for Kids"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CodingforKids"
+        tools:targetApi="31">
+        <activity
+            android:name=".child.CodeGame3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".child.CodeGame2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".child.ConceptsGameLevelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.DisplayScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.ConceptsGameJavaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.CodeGameJavaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.ChooseLanguageGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ChangeRequestStatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.ViewLessonImageChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.ViewLessonVideoChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.ManageTeacherLessonsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ViewLessonImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ViewLessonDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ViewProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ViewVideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddLessonVideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddLessonSoundActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddLessonImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.ConceptsGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.CodeGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.SolveExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.LessonDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.LessonsLearnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.ChooseLanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.ChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.UpdateRequestDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.UpdateLessonRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.AddLessonRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.TeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ViewTutorialsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ChildProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.UpdateChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ManageChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.AddChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ParentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.UpdateExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.UpdateLessonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddLessonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageRequestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageExercisesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageLessonsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageTeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageParentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminViewKidsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ViewParentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPassword2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPassword1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.TeacherEditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ParentEditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.ChildEditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminEditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

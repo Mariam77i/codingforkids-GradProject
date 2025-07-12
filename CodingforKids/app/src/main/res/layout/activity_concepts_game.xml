@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".child.ConceptsGameActivity">
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/back_arrow" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imgLogo">
+
+        <TextView
+            android:id="@+id/txtLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/chelmsfordfree"
+            android:text="@string/concepts_game"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imgQtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_marginHorizontal="20dp"/>
+        <TextView
+            android:id="@+id/txtQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/mechanical"
+            android:text="Choose Correct Answer"
+            android:textStyle="bold"
+            android:lineHeight="20dp"
+            android:textColor="@color/light_green"
+            android:textSize="18dp" />
+
+
+        <ImageButton
+            android:id="@+id/btnBlock1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:padding="5px"
+            android:layout_marginHorizontal="20dp"
+            android:src="@drawable/solve3"
+            android:scaleType="fitCenter"
+            android:background="@color/pink"
+            />
+        <ImageButton
+            android:id="@+id/btnBlock2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:padding="5px"
+            android:layout_marginHorizontal="20dp"
+            android:src="@drawable/solve1"
+            android:scaleType="fitCenter"
+            android:background="@color/light_blue"
+            />
+        <ImageButton
+            android:id="@+id/btnBlock3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:padding="5px"
+            android:layout_marginHorizontal="20dp"
+            android:src="@drawable/solve2"
+            android:scaleType="fitCenter"
+            android:background="@color/light_green"
+            />
+        <ImageButton
+            android:id="@+id/btnBlock4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:padding="5px"
+            android:layout_marginHorizontal="20dp"
+            android:src="@drawable/solve1"
+            android:scaleType="fitCenter"
+            android:background="@color/pink"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

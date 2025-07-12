@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".child.SolveExerciseActivity">
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/back_arrow" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imgLogo">
+
+        <TextView
+            android:id="@+id/txtLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/chelmsfordfree"
+            android:text="@string/solve_exercise"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:textSize="30dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtQuestion"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/exercise_details"
+            android:transitionName="username_tran"
+            app:counterMaxLength="15">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Create a webpage that prints the numbers 1 - 10 to the screen"
+                android:background="@drawable/round_text"
+                android:inputType="textMultiLine"
+                android:minLines="6"
+                android:textColor="@color/light_green"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageButton
+                android:id="@+id/btnAnswer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="75dp"
+                android:layout_marginTop="10dp"
+                android:padding="5px"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/answer1"
+                android:scaleType="fitCenter"
+                android:background="@color/pink"
+                />
+            <ImageButton
+                android:id="@+id/btnAnswer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="75dp"
+                android:layout_marginTop="10dp"
+                android:padding="5px"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/answer2"
+                android:scaleType="fitCenter"
+                android:background="@color/light_blue"
+                />
+        <ImageButton
+            android:id="@+id/btnAnswer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="75dp"
+            android:layout_marginTop="10dp"
+            android:padding="5px"
+            android:layout_marginHorizontal="20dp"
+            android:src="@drawable/answer3"
+            android:scaleType="fitCenter"
+            android:background="@color/light_green"
+            />
+    </LinearLayout>
+</RelativeLayout>
